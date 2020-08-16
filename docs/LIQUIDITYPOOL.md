@@ -1,6 +1,7 @@
 # Investment basics of DeFi liquidity pools like Uniswap, OmegaSwap
 *****************************************************************
-August, 16, 2020, ### Ǒmega Protocol
+August, 16, 2020,
+### Ǒmega Protocol
 
 
 
@@ -44,7 +45,7 @@ Liquidity pools require no listing fees. Anyone can invest in an existing liquid
 
 When an investor wants to supply liquidity into a pool, they deposit the equivalent value of both assets. 
 
-Example, supplying $100 of liquidity into an ETH/pDAI pool requires a deposit of $100 worth of ETH and $100 pDAI, so $200 in total. In return, the investor receives liquidity pool tokens [ which is generated from smart contract automatically ] which represent their proportional share of the pool and allows them to withdraw that share at any time.
+Example, supplying $100 of liquidity into an ETH/pDAI pool requires a deposit of $100 worth of ETH and $100 pDAI, so $200 in total. In return, the investor receives liquidity pool tokens  <b>which is generated from smart contract automatically</b> which represent their proportional share of the pool and allows them to withdraw that share at any time.
 
 When someone places a trade, trading fees are deducted from the asset that the trader sends to the exchange contract and added to the liquidity pool after the trade. For example, Uniswap charges a 0.3% trade fee. If your $100 ETH/DAI contribution makes up 0.007% of the pool, you’ll get 0.007% of that 0.3% trading fee.
 
@@ -66,7 +67,7 @@ Uniswap is a decentralized ETH and ERC-20 token exchange that charges a 0.3% tra
 
 ## Returns Over Pool Investment [ ROPL ]
 
-Liquidity pool returns depend on three factors: 
+### Liquidity pool returns depend on three factors: 
 i) asset prices when supplied and withdrawn 
 ii) liquidity pool size, and 3) trading volumes.
 
