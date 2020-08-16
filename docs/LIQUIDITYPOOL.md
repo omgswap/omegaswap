@@ -63,7 +63,7 @@ Liquidity pools are designed to perform trades and maintain pricing according to
 
 Uniswap is a decentralized ETH and ERC-20 token exchange that charges a 0.3% trading fee on all its pools. Direct token-token pools are not yet supported in V1 but V2 its also supported.
 
-### To withdraw liquidity on either protocol, investors simply return their pool tokens at any time, and their proportional share of the pooled ### assets and the accrued trading fees are sent to their wallet.
+### To withdraw liquidity on either protocol, investors simply return their pool tokens at any time, and their proportional share of the pooled assets and the accrued trading fees are sent to their wallet.
 
 ## Returns Over Pool Investment [ ROPL ]
 
