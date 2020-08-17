@@ -1,8 +1,14 @@
-# Investment basics of DeFi liquidity pools like Uniswap, OmegaSwap
-*****************************************************************
+# Basics of Invessting in DeFi liquidity pools like Uniswap, OmegaSwap
+**********
 August, 16, 2020,
 ### Ǒmega Protocol
+### https://omgswap.in
+### https://app.omgswap.in
 
+## Initial Pool Token Oferring $OPM Start 17th August 2020. Only 30% will be sold from our Prime DEX build using GnoSIS Protocol
+### More info visit https://omgswap.in
+
+******************************************
 
 
 ## LIQUIDITY POOL
@@ -79,3 +85,13 @@ Investors will likely end up withdrawing a different ratio of assets compared to
 ### Are you Ready to invest in liquidity pools?
 
 If you want to start investing in liquidity pools and other crypto instruments, follow us at Twitter.
+
+### UniSwap Trading & Liquidity Pool from <b> QDA </b> QuantaEx Digital Assets
+
+🦄 QBTC-ETH Pair | https://uniswap.info/pair/0x48B7c7Ef2e58A2DB21D273dcDe116a0B53cf87e2
+
+🦄 DSR-ETH Pair | https://uniswap.info/pair/0x2e62EAcCF1008B4f1b1651EbfECfe61c0ADAbF78
+
+🦄 DSR-USDC Pair | https://uniswap.info/pair/0xd48421f57f9baf43b74a610ef109593b2db568f3
+
+
