@@ -2,7 +2,7 @@
   "name": "omgswap",
   "description": "ǑMGSwap",
   "version": "0.1.2",
-  "homepage": "https://omgswap.com",
+  "homepage": "https://omegaswap.com",
   "private": true,
   "dependencies": {
     "@babel/helper-call-delegate": "^7.10.4",
