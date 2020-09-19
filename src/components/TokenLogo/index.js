@@ -5,9 +5,7 @@ import { isAddress } from '../../utils'
 import { ReactComponent as EthereumLogo } from '../../assets/images/ethereum-logo.svg'
 
 const TOKEN_ICON_API = address =>
-  `https://raw.githubusercontent.com/omgswap/public-assets/master/assets/${isAddress(
-    address
-  )}/logo.png`
+  `https://raw.githubusercontent.com/omgswap/public-assets/master/assets/ethereum/${isAddress(address)}/logo.png`
 const BAD_IMAGES = {}
 
 const Image = styled.img`
@@ -42,7 +40,7 @@ export default function TokenLogo({ address, size = '1rem', ...rest }) {
     return (
       <Emoji {...rest} size={size}>
         <span role="img" aria-label="Thinking">
-          🤔
+          Ⓜ️
         </span>
       </Emoji>
     )
