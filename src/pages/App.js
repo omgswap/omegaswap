@@ -15,7 +15,7 @@ import { Link } from '../theme'
 
 const Swap = lazy(() => import('./Swap'))
 const Send = lazy(() => import('./Send'))
-const Pool = lazy(() => import('./Pool'))
+
 
 const AppWrapper = styled.div`
   display: flex;
@@ -181,16 +181,7 @@ export default function App() {
                           }
                         }}
                       />
-                      <Route
-                        path={[
-                          '/add-liquidity',
-                          '/remove-liquidity',
-                          '/create-exchange',
-                          '/create-exchange/:tokenAddress?'
-                        ]}
-                        component={() => <Pool params={params} />}
-                      />
-                      <Redirect to="/swap" />
+                     <Redirect to="/swap" />
                     </Switch>
                   </Suspense>
                 </BrowserRouter>
