@@ -1,0 +1,6 @@
+[user]
+	signingkey = EC2ABF383E39D206
+	email = sabinacrp88@gmail.com
+	name = S. A
+[credential]
+	helper = cache --timeout=604800
