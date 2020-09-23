@@ -43,10 +43,10 @@ const BodyWrapper = styled.div`
 
 const Body = styled.div`
   max-width: 30rem;
-  width: 100%;
+  width: 85%;
   padding: 20px;
   background-color: ${({ theme }) => theme.concreteGray};
-  margin: 50px;
+  margin: 100px;
   border-radius: 2rem;
   /*margin: 1rem 0 1rem 0; */
 `

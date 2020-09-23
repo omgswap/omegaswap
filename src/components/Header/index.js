@@ -57,6 +57,9 @@ const Title = styled.div`
     font-size: 0.9rem;
     font-weight: 600;
     color: ${({ theme }) => theme.headText};
+    @media screen and (max-width: 600px) {
+      font-size: 0.6rem;
+        }
     :hover {
       color: ${({ theme }) => darken(0.2, theme.headText)};
     }

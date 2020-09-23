@@ -89,7 +89,7 @@ export default function Footer() {
           </Link>
          </Title>
       </ColT>
-      <ColS style={{display: 'flex', justifyContent: 'center'}}>
+      <ColS style={{display: 'flex', justifyContent: 'center', fontSize: 'small'}}>
         © 2020 | Ǒmega Protocol Ltd. Reg. No. <Link href="https://beta.companieshouse.gov.uk/company/12855720" target="_blank" rel="noopener noreferrer"> 12855720 </Link>
       </ColS>
       <ColT style={{display: 'flex', justifyContent: 'center'}}>
