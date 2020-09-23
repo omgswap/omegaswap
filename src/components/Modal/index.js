@@ -19,7 +19,7 @@ const StyledDialogOverlay = styled(WrappedDialogOverlay).attrs({
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: ${({ theme }) => transparentize(0.7, theme.black)}; 
+    background-color: ${({ theme }) => transparentize(0.7, theme.black)};
 
     ${({ mobile }) =>
       mobile &&
@@ -54,7 +54,7 @@ const StyledDialogContent = styled(FilteredDialogContent)`
     padding: 0px;
     width: 50vw;
 
-    max-width: 650px;
+    max-width: 550px;
     ${({ maxHeight }) =>
       maxHeight &&
       css`

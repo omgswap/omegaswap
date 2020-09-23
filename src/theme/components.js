@@ -27,7 +27,7 @@ export const Button = styled.button.attrs(({ warning, theme }) => ({
   }
 
   :disabled {
-    background-color: ${({ theme }) => theme.concreteGray};
+    background-color: ${({ theme }) => theme.submitGray};
     color: ${({ theme }) => theme.silverGray};
     cursor: auto;
   }

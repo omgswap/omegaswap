@@ -47,7 +47,7 @@ const InputRow = styled.div`
   ${({ theme }) => theme.flexRowNoWrap}
   align-items: center;
 
-  padding: 1rem 1rem 2rem;
+  padding: 1rem;
 `
 
 const Input = styled(BorderlessInput)`

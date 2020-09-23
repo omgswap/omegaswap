@@ -102,24 +102,24 @@ export default function Header() {
       <HeaderSpan>
         <HeaderElement>
           <Title>
-            <Link id="link" href="https://omgswap.com/">
+            <Link id="link" href="https://omegaswap.com/">
               <h1 id="title"><Logo alt="OMGSwap"/></h1>
             </Link>
           </Title>
           <Title>
             <List>
-              <Link id="link" href="https://odex.link/">
-                <h1 id="title"> O-DEX </h1>
+              <Link id="link" href="https://omgswap.com/">
+                <h1 id="title"> OMGSwap </h1>
               </Link>
             </List>
             <List>
-              <Link id="link" href="https://odex.link/">
-                <h1 id="title"> Prime Staking </h1>
+              <Link id="link" href="https://omegaex.io/">
+                <h1 id="title"> OmegaEx </h1>
               </Link>
             </List>
             <List>
-              <Link id="link" href="https://odex.link/">
-                <h1 id="title"> Prime Vault </h1>
+              <Link id="link" href="https://omegabox.io/">
+                <h1 id="title"> OmegaBOX </h1>
               </Link>
             </List>
           </Title>

@@ -49,37 +49,38 @@ const theme = darkMode => ({
   headText: darkMode ? white : '#252529',
 
   // for setting css on <html>
-  backgroundColor: darkMode ? '#222732' : '#F2F2FF',
+  backgroundColor: darkMode ? '#313333' : '#F2F2F2',
 
-  switchColor: darkMode ? '#212543' : '#DBDDFF',
-  shadowBox: darkMode ? 'rgba(25,29,37,0.4)' : 'rgba(201,201,223,0.4)',
+  switchColor: darkMode ? '#353737' : '#D7DDDD',
+  shadowBox: darkMode ? 'rgba(42,49,48,0.4)' : 'rgba(205,223,221,0.4)',
   modalBackground: darkMode ? 'rgba(0,0,0,0.6)' : 'rgba(0,0,0,0.5)',
-  inputBackground: darkMode ? '#1A1E27' : "#FFFFFF",
-  placeholderGray: darkMode ? '#303745' : '#CCCFFF',
-  shadowColor: darkMode ? '#000' : '#727FFF',
+  inputBackground: darkMode ? '#2B2D2D' : "#FFFFFF",
+  placeholderGray: darkMode ? '#303745' : '#D7E3E3',
+  shadowColor: darkMode ? '#000' : '#009685',
 
   // grays
-  concreteGray: darkMode ? '#1F232D' : '#FBFBFF',
-  mercuryGray: darkMode ? '#252A37' : '#EEEFFF',
-  silverGray: darkMode ? '#606BD5' : '#C4C4C4',
+  concreteGray: darkMode ? '#2B2D2D' : '#FBFBFF',
+  submitGray: darkMode ? '#353737' : '#D7DDDD',
+  mercuryGray: darkMode ? '#3A3B3B' : '#EAEAEA',
+  silverGray: darkMode ? '#009685' : '#C4C4C4',
   chaliceGray: darkMode ? '#7B7B7B' : '#828395',
-  doveGray: darkMode ? '#C3C9D7' : '#4E4E55',
+  doveGray: darkMode ? '#C5C9C9' : '#4E4E55',
   mineshaftGray: darkMode ? '#E1E1E1' : '#2B2B2B',
-  activeGray: darkMode ? '#252B37' : '#CCCFFF',
-  buttonOutlineGrey: darkMode ? '#FAFAFA' : '#DCDEFF',
-  tokenRowHover: darkMode ? '#2C323E' : '#DCDEFF',
+  activeGray: darkMode ? '#252B37' : '#D7E3E3',
+  buttonOutlineGrey: darkMode ? '#FAFAFA' : '#EBFFFD',
+  tokenRowHover: darkMode ? '#323535' : '#EBFFFD',
 
   //blacks
-  charcoalBlack: darkMode ? '#DCDEFF' : '#2C323E',
+  charcoalBlack: darkMode ? '#EBFFFD' : '#323535',
   // blues
-  zumthorBlue: darkMode ? '#212529' : '#DCDEFF',
-  malibuBlue: darkMode ? '#727FFF' : '#727FFF',
-  royalBlue: darkMode ? '#727FFF' : '#727FFF',
+  zumthorBlue: darkMode ? '#3A3B3B' : '#EBFFFD',
+  malibuBlue: darkMode ? '#009685' : '#009685',
+  royalBlue: darkMode ? '#009685' : '#009685',
   loadingBlue: darkMode ? '#e4f0ff' : '#e4f0ff',
 
   // purples
-  wisteriaPurple: '#727FFF',
-  activeBotton: '#5868ff',
+  wisteriaPurple: '#009685',
+  activeBotton: '#00AB98',
   // reds
   salmonRed: '#FF6871',
   // orange
@@ -87,7 +88,7 @@ const theme = darkMode => ({
   // yellows
   warningYellow: '#FFE270',
   // pink
-  uniswapPink: '#727FFF',
+  uniswapPink: '#009685',
   //green
   connectedGreen: '#27AE60',
 
@@ -98,7 +99,7 @@ const theme = darkMode => ({
   textHover: darkMode ? theme.uniswapPink : theme.doveGray,
 
   // connect button when loggedout
-  buttonFaded: darkMode ? '#727FFF' : '#606BD5',
+  buttonFaded: darkMode ? '#009685' : '#009685',
 
   // media queries
   mediaWidth: mediaWidthTemplates,
@@ -152,7 +153,7 @@ export const GlobalStyle = createGlobalStyle`
     font-variant: none;
     color: ${({ theme }) => theme.textColor};
     background-color: ${({ theme }) => theme.backgroundColor};
-    background-image: radial-gradient(55% 55% at 55% 55%, rgb(114 127 255 / 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
+    background-image: radial-gradient(55% 55% at 55% 55%, rgb(0,150,133,0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);

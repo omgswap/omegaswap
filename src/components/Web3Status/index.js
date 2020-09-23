@@ -76,7 +76,7 @@ const Web3StatusConnect = styled(Web3StatusGeneric)`
 `
 
 const Web3StatusConnected = styled(Web3StatusGeneric)`
-  background-color: ${({ pending, theme }) => (pending ? theme.zumthorBlue : theme.inputBackground)};
+  background-color: ${({ pending, theme }) => (pending ? theme.zumthorBlue : theme.submitGray)};
   border: 1px solid ${({ pending, theme }) => (pending ? theme.royalBlue : theme.mercuryGray)};
   color: ${({ pending, theme }) => (pending ? theme.royalBlue : theme.doveGray)};
   font-weight: 600;

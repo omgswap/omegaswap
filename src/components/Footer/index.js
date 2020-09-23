@@ -78,19 +78,19 @@ export default function Footer() {
           <Link id="link" href="https://omgswap.com/" target="_blank" rel="noopener noreferrer">
             <h1 id="title">OMGSwap</h1>
           </Link>
-          <Link id="link" href="https://odex.link/" target="_blank" rel="noopener noreferrer">
-            <h1 id="title">ODEX</h1>
+          <Link id="link" href="https://omegaex.io/" target="_blank" rel="noopener noreferrer">
+            <h1 id="title">OmegaEX</h1>
+          </Link>
+          <Link id="link" href="https://omegabox.io/" target="_blank" rel="noopener noreferrer">
+            <h1 id="title">OmegaBOX</h1>
           </Link>
           <Link id="link" href="https://omgswap.link/" target="_blank" rel="noopener noreferrer">
-            <h1 id="title">OMGSwap Info</h1>
-          </Link>
-          <Link id="link" href="https://news.omgswap.in/" target="_blank" rel="noopener noreferrer">
-            <h1 id="title">News</h1>
+            <h1 id="title">Analytics</h1>
           </Link>
          </Title>
       </ColT>
       <ColS style={{display: 'flex', justifyContent: 'center'}}>
-        © 2020 | Ǒmega Protocol Ltd. Reg. No. <a href="https://beta.companieshouse.gov.uk/company/12855720" target="_blank" rel="noopener noreferrer"> 12855720 </a>
+        © 2020 | Ǒmega Protocol Ltd. Reg. No. <Link href="https://beta.companieshouse.gov.uk/company/12855720" target="_blank" rel="noopener noreferrer"> 12855720 </Link>
       </ColS>
       <ColT style={{display: 'flex', justifyContent: 'center'}}>
       <Title>
@@ -114,7 +114,7 @@ export default function Footer() {
             <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path class="st0" d="M16,0.3C7.2,0.3,0,7.5,0,16.4c0,7.1,4.6,13.1,10.9,15.2c0.8,0.1,1.1-0.3,1.1-0.8c0-0.4,0-1.4,0-2.7    c-4.4,1-5.4-2.2-5.4-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1c1.6,0.1,2.5,1.7,2.5,1.7c1.4,2.5,3.7,1.7,4.7,1.3    c0.1-1,0.6-1.7,1-2.1c-3.6-0.4-7.3-1.8-7.3-7.9c0-1.8,0.6-3.2,1.6-4.3c-0.2-0.4-0.7-2,0.2-4.3c0,0,1.3-0.4,4.4,1.6    c1.3-0.4,2.6-0.5,4-0.5c1.4,0,2.7,0.2,4,0.5C23.1,6.6,24.4,7,24.4,7c0.9,2.2,0.3,3.8,0.2,4.3c1,1.1,1.6,2.6,1.6,4.3    c0,6.2-3.7,7.5-7.3,7.9c0.6,0.5,1.1,1.5,1.1,3c0,2.1,0,3.9,0,4.4c0,0.4,0.3,0.9,1.1,0.8C27.4,29.5,32,23.5,32,16.4    C32,7.5,24.8,0.3,16,0.3z"/></svg>
           </h1>
         </Link>
-        <Link id="link" href="https://www.reddit.com/u/omegadefi/" target="_blank" rel="noopener noreferrer">
+        <Link id="link" href="https://www.reddit.com/r/omegaprotocol/" target="_blank" rel="noopener noreferrer">
           <h1 id="title">
             <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="st0" d="M32,15c0-2.2-1.8-4-4-4c-0.9,0-1.7,0.3-2.4,0.8c-2.2-1.5-5.1-2.5-8.2-2.7l1.7-3.9l4.9,1.1    c0.2,1.5,1.4,2.7,3,2.7c1.6,0,3-1.3,3-3s-1.3-3-3-3c-1,0-2,0.5-2.5,1.4l-5.7-1.3c-0.5-0.1-1,0.1-1.1,0.6l-2.3,5.4    c-3.3,0.1-6.5,1.1-8.9,2.7C5.7,11.3,4.8,11,4,11c-2.2,0-4,1.8-4,4c0,1.5,0.8,2.8,2,3.4c0,0.2,0,0.4,0,0.5c0,5.5,6.3,10,13.9,10    c7.7,0,13.9-4.5,13.9-10c0-0.2,0-0.3,0-0.5C31.2,17.9,32,16.5,32,15z M26.9,5c0.5,0,1,0.4,1,1s-0.4,1-1,1c-0.5,0-1-0.4-1-1    S26.3,5,26.9,5z M9,18c0-1.1,0.9-2,2-2s2,0.9,2,2c0,1.1-0.9,2-2,2S9,19.1,9,18z M20.5,24.6c-1.4,1-3,1.5-4.6,1.5s-3.2-0.5-4.6-1.5    c-0.4-0.3-0.5-0.9-0.2-1.4c0.3-0.4,0.9-0.5,1.4-0.2c2.1,1.5,4.8,1.5,6.9,0c0.4-0.3,1.1-0.2,1.4,0.2C21.1,23.7,21,24.3,20.5,24.6z     M20.9,20c-1.1,0-2-0.9-2-2c0-1.1,0.9-2,2-2s2,0.9,2,2C22.9,19.1,22,20,20.9,20z"/></svg>
           </h1>
